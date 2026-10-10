@@ -6,5 +6,7 @@ class User:
   def show_info(self):
     print(f"ID: {self.id}, Name: {self.name}, Age: {self.age}")
 
-user = User(1, "若松杏南", 18)
-user.show_info()
+user1 = User(1, "若松杏南", 18)
+user1.show_info()
+user2 = User(2, "若松英寿", 61)
+user2.show_info()
